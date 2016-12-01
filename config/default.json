@@ -1,6 +1,25 @@
 {
   "server": {
-    "allowCrossDomain": false,
+
+    "core": {
+      "allowCrossDomain": false,
+      "bodyParser": {
+        "sizeLimit": "50mb",
+        "extended": false
+      },
+      "enable": ["trust proxy"],
+      "port": "4000",
+      "staticAssets": {
+        "enabled": true,
+        "staticDir": "-- NO DEFAULT STATIC DIR --"
+      }
+
+    },
+
+    "error": {
+      "dumpExceptions": true,
+      "showStack": true
+    },
 
     "template": {
       "enabled": false
