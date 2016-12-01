@@ -1,0 +1,16 @@
+{
+  "server": {
+    "allowCrossDomain": false,
+
+    "template": {
+      "enabled": false
+    },
+
+    "plugins": {
+      "prerender": {
+        "enabled": false,
+        "token": "-- NO DEFAULT PRERENDER TOKEN --"
+      }
+    }
+  }
+}

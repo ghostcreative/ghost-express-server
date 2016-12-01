@@ -1,0 +1,17 @@
+{
+  "name": "ghost-express-server",
+  "version": "1.0.0",
+  "description": "ghost creative express.js server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ghost",
+    "creative",
+    "express.js",
+    "server"
+  ],
+  "author": "Nick Gerner",
+  "license": "ISC"
+}

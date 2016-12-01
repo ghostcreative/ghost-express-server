@@ -1,0 +1,26 @@
+*.key
+*.pem
+*.crt
+*.csr
+.ssh/
+certs/
+node_modules/
+web/public/
+npm-debug.log
+.bash_profile
+**/.DS_Store
+database.json
+local.json
+sublime-gulp.log
+config/test-local.json
+config/docker-local.json
+Dockerrun.aws.json
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# Webstorm
+.idea/
+.idea 2/
