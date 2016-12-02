@@ -1,6 +1,5 @@
 {
   "server": {
-
     "core": {
       "allowCrossDomain": false,
       "bodyParser": {
@@ -10,7 +9,7 @@
       "enable": ["trust proxy"],
       "port": "4000",
       "staticAssets": {
-        "enabled": true,
+        "enabled": false,
         "staticDir": "-- NO DEFAULT STATIC DIR --"
       }
 
@@ -21,8 +20,15 @@
       "showStack": true
     },
 
-    "template": {
-      "enabled": false
+    "logger": {
+      "console": {
+        "enabled": true,
+        "json": true
+      },
+      "logentries": {
+        "enabled": false,
+        "token": "-- NO DEFAULT LOGENTRIES TOKEN --"
+      }
     },
 
     "plugins": {
@@ -30,6 +36,10 @@
         "enabled": false,
         "token": "-- NO DEFAULT PRERENDER TOKEN --"
       }
+    },
+
+    "template": {
+      "enabled": false
     }
   }
 }
