@@ -7,7 +7,7 @@
         "extended": false
       },
       "enable": ["trust proxy"],
-      "port": "4000",
+      "port": 4000,
       "staticAssets": {
         "enabled": false,
         "staticDir": "-- NO DEFAULT STATIC DIR --"

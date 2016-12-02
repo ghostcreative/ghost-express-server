@@ -19,8 +19,15 @@ describe('GhostExpressServerFactory', function () {
 
   });
 
-  describe('start', () => {
+  describe('run', () => {
 
+    it('should start & stop', () => {
+      let server;
+      return GhostExpressServerFactory.create(Config.get('server'))
+      .then(_server_ => server = _server_)
+      .then(() => server.start())
+      .then(() => server.stop())
+    })
   });
 
   describe('useMiddleware', () => {
