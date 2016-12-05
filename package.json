@@ -1,6 +1,6 @@
 {
   "name": "ghost-express-server",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "ghost creative express.js server",
   "main": "index.js",
   "scripts": {
