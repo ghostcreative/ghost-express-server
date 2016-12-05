@@ -1,6 +1,6 @@
 {
   "name": "ghost-express-server",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "ghost creative express.js server",
   "main": "index.js",
   "scripts": {
@@ -29,6 +29,7 @@
     "lodash": "^4.17.2",
     "mocha": "^3.2.0",
     "node-emoji": "^1.4.1",
+    "path": "^0.12.7",
     "prerender-node": "^2.5.0",
     "winston": "^2.3.0",
     "winston-logentries": "^3.0.0"
