@@ -9,8 +9,7 @@
       "enable": ["trust proxy"],
       "port": 4000,
       "staticAssets": {
-        "enabled": false,
-        "staticDir": "-- NO DEFAULT STATIC DIR --"
+        "enabled": false
       }
 
     },
@@ -23,23 +22,26 @@
     "logger": {
       "console": {
         "enabled": true,
-        "json": true
+        "json": true,
+        "colorize": true
       },
       "logentries": {
-        "enabled": false,
-        "token": "-- NO DEFAULT LOGENTRIES TOKEN --"
+        "enabled": true,
+        "token": "f818ba8e-4768-43a1-b587-0a6f689b840a"
       }
     },
 
     "plugins": {
       "prerender": {
-        "enabled": false,
-        "token": "-- NO DEFAULT PRERENDER TOKEN --"
+        "enabled": false
       }
     },
 
     "template": {
       "enabled": false
+    },
+
+    "validation": {
     }
   }
 }

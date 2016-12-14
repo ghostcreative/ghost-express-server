@@ -1,6 +1,6 @@
 {
   "name": "ghost-express-server",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "ghost creative express.js server",
   "main": "index.js",
   "scripts": {
@@ -26,13 +26,14 @@
     "express-handlebars": "^3.0.0",
     "express-validator": "^3.0.0",
     "express-winston": "^2.0.0",
+    "ghost-express-route-request-validator": "^1.0.6",
     "http-responses": "0.0.5",
+    "le_node": "^1.7.0",
     "lodash": "^4.17.2",
     "mocha": "^3.2.0",
     "node-emoji": "^1.4.1",
     "path": "^0.12.7",
     "prerender-node": "^2.5.0",
-    "winston": "^2.3.0",
-    "winston-logentries": "^3.0.0"
+    "winston": "^2.3.0"
   }
 }
