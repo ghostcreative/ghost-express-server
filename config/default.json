@@ -26,6 +26,7 @@
     },
 
     "logger": {
+      "enabled": true,
       "console": {
         "enabled": true,
         "json": true,
@@ -33,6 +34,7 @@
       },
       "logentries": {
         "enabled": true,
+        "console": true,
         "token": "f818ba8e-4768-43a1-b587-0a6f689b840a"
       }
     },

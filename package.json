@@ -31,7 +31,7 @@
     "express-validator": "^3.0.0",
     "express-winston": "^2.0.0",
     "ghost-express-route-request-validator": "^1.0.6",
-    "ghost-logger": "^1.1.1",
+    "ghost-logger": "^1.2.0",
     "ghost-sequelize": "^1.0.3",
     "http-responses": "0.0.5",
     "jwt-simple": "^0.5.1",
