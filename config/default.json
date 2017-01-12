@@ -1,5 +1,11 @@
 {
   "server": {
+
+    "auth": {
+      "authSecret": "^uI63r@FRZeZPl)07snE",
+      "plugin": "bearerJwt"
+    },
+
     "core": {
       "allowCrossDomain": false,
       "bodyParser": {
@@ -34,6 +40,25 @@
     "plugins": {
       "prerender": {
         "enabled": false
+      }
+    },
+
+    "sequelize": {
+      "database": {
+        "username": "root",
+        "password": "password",
+        "database": "ghost_sequelize_test",
+        "options": {
+          "host": "localhost",
+          "dialect": "mysql",
+          "logging": false,
+          "sync": {
+            "force": false
+          }
+        }
+      },
+      "models": {
+        "dirPath": "../../../test/models"
       }
     },
 

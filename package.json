@@ -1,6 +1,6 @@
 {
   "name": "ghost-express-server",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "description": "ghost creative express.js server",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,8 @@
   "author": "Ghost Creative",
   "license": "ISC",
   "dependencies": {
-    "bluebird": "^3.4.6",
+    "bcryptjs": "^2.4.0",
+    "bluebird": "^3.4.7",
     "body-parser": "^1.15.2",
     "chai": "^3.5.0",
     "cli-table": "^0.3.1",
@@ -28,10 +29,14 @@
     "express-validator": "^3.0.0",
     "express-winston": "^2.0.0",
     "ghost-express-route-request-validator": "^1.0.6",
+    "ghost-logger": "^1.1.1",
+    "ghost-sequelize": "^1.0.3",
     "http-responses": "0.0.5",
+    "jwt-simple": "^0.5.1",
     "le_node": "^1.7.0",
-    "lodash": "^4.17.2",
+    "lodash": "^4.17.4",
     "mocha": "^3.2.0",
+    "moment": "^2.17.1",
     "node-emoji": "^1.4.1",
     "path": "^0.12.7",
     "prerender-node": "^2.5.0",
