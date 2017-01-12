@@ -35,7 +35,9 @@
       "logentries": {
         "enabled": true,
         "console": true,
-        "token": "f818ba8e-4768-43a1-b587-0a6f689b840a"
+        "token": "f818ba8e-4768-43a1-b587-0a6f689b840a",
+        "timestamp": true,
+        "withStack": true
       }
     },
 
@@ -62,6 +64,10 @@
       "models": {
         "dirPath": "../../../test/models"
       }
+    },
+
+    "staticAssets": {
+      "enabled": false
     },
 
     "template": {
