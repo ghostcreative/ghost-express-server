@@ -18,12 +18,7 @@
         "extended": false
       },
       "enable": ["trust proxy"],
-      "port": 4000,
-      "staticAssets": {
-        "enabled": false,
-        "staticDir": "-- DEFAULT STATIC DIR --"
-      }
-
+      "port": 4000
     },
 
     "error": {
@@ -47,6 +42,11 @@
         "enabled": false,
         "token": "-- DEFAULT PRERENDER TOKEN --"
       }
+    },
+
+    "staticAssets": {
+      "enabled": false,
+      "directories": ["static", "files"]
     },
 
     "template": {
