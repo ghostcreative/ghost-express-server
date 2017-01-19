@@ -13,11 +13,7 @@
         "extended": false
       },
       "enable": ["trust proxy"],
-      "port": 4000,
-      "staticAssets": {
-        "enabled": false
-      }
-
+      "port": 4000
     },
 
     "error": {
