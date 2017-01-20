@@ -1,6 +1,6 @@
 {
   "name": "ghost-express-server",
-  "version": "2.0.11",
+  "version": "2.1.0",
   "description": "ghost creative express.js server",
   "main": "index.js",
   "scripts": {
@@ -34,6 +34,7 @@
     "ghost-express-route-request-validator": "^1.0.6",
     "ghost-logger": "^1.2.0",
     "ghost-sequelize": "^1.0.3",
+    "glob-fs": "^0.1.6",
     "http-responses": "0.0.5",
     "jwt-simple": "^0.5.1",
     "le_node": "^1.7.0",
