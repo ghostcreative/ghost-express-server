@@ -12,8 +12,7 @@ npm-debug.log
 database.json
 local.json
 sublime-gulp.log
-config/test-local.json
-config/docker-local.json
+config/
 Dockerrun.aws.json
 
 # Elastic Beanstalk Files
