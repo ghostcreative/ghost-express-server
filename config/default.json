@@ -36,7 +36,11 @@
         "withStack": true
       },
       "loggly": {
-        "enabled": false
+        "enabled": false,
+        "level": "info",
+        "token": "-- SOME TOKEN --",
+        "subdomain": "ghostcreative",
+        "tags": ["ghost", "express"]
       },
       "newrelic": {
         "enabled": false
