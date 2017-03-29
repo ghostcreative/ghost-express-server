@@ -27,14 +27,7 @@ describe('GhostExpressServerFactory', function () {
       .then(_server_ => server = _server_)
       .then(() => server.start())
       .then(() => server.stop())
-    })
-  });
-
-  describe('useMiddleware', () => {
-
-  });
-
-  describe('useRouter', () => {
+    });
 
   });
 
