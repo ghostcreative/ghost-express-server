@@ -4,7 +4,7 @@
   "description": "ghost creative express.js server",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./test --recnpm run server"
+    "test": "mocha ./test --recursive"
   },
   "keywords": [
     "ghost",
