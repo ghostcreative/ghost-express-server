@@ -8,10 +8,16 @@ const GhostExpressServerFactory = require('../index');
 
 const ghostServer = GhostExpressServerFactory.create(Config.get('server'));
 
-describe('GhostExpressServerFactory', function () {
+describe('GhostExpressServer', function () {
 
-    describe('start', () => {});
-    describe('stop', () => {});
+    describe('Angular4', () => {
+
+        it('should load an angular 4 universal application', () => {
+
+        });
+
+    });
+
     describe('useMiddleware', () => {});
     describe('useRouter', () => {});
     describe('useSequelizeService', () => {});
