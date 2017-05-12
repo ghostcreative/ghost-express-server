@@ -4,16 +4,7 @@
   "description": "ghost creative express.js server",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./test --recursive",
-    "start": "npm run build && npm run server",
-    "build": "webpack",
-    "build:aot": "webpack --env.aot --env.client & webpack --env.aot --env.server",
-    "prebuild": "npm run clean",
-    "prebuild:aot": "npm run clean",
-    "prebuild:prod": "npm run clean",
-    "clean": "rimraf dist",
-    "server": "nodemon dist/ghostExpressServer.js",
-    "watch": "webpack --watch"
+    "test": "mocha ./test --recnpm run server"
   },
   "keywords": [
     "ghost",
@@ -24,17 +15,12 @@
   "author": "Ghost Creative",
   "license": "ISC",
   "dependencies": {
-    "@angular/animations": "^4.1.2",
     "@angular/common": "^4.1.2",
     "@angular/compiler": "^4.1.2",
     "@angular/compiler-cli": "^4.1.2",
     "@angular/core": "^4.1.2",
-    "@angular/forms": "^4.1.2",
     "@angular/http": "^4.1.2",
-    "@angular/platform-browser": "^4.1.2",
-    "@angular/platform-browser-dynamic": "^4.1.2",
     "@angular/platform-server": "^4.1.2",
-    "@angular/router": "^4.1.2",
     "@nguniversal/express-engine": "^1.0.0-beta.1",
     "bcryptjs": "^2.4.0",
     "bluebird": "^3.4.7",
