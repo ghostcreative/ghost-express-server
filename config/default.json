@@ -1,10 +1,18 @@
 {
   "server": {
 
+    "angular": {
+      "enabled": true,
+      "engineName": "html",
+      "baseUrl": "",
+      "ngServerAppPath": "../../../test/app/server-app.module.ts"
+    },
+
     "auth": {
       "authSecret": "^uI63r@FRZeZPl)07snE",
       "plugin": "bearerJwt"
     },
+
 
     "core": {
       "allowCrossDomain": false,
