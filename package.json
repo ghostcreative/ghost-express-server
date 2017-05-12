@@ -15,12 +15,17 @@
   "author": "Ghost Creative",
   "license": "ISC",
   "dependencies": {
+    "@angular/animations": "^4.1.2",
     "@angular/common": "^4.1.2",
     "@angular/compiler": "^4.1.2",
     "@angular/compiler-cli": "^4.1.2",
     "@angular/core": "^4.1.2",
+    "@angular/forms": "^4.1.2",
     "@angular/http": "^4.1.2",
+    "@angular/platform-browser": "^4.1.2",
+    "@angular/platform-browser-dynamic": "^4.1.2",
     "@angular/platform-server": "^4.1.2",
+    "@angular/router": "^4.1.2",
     "@nguniversal/express-engine": "^1.0.0-beta.1",
     "bcryptjs": "^2.4.0",
     "bluebird": "^3.4.7",
@@ -49,6 +54,7 @@
     "node-emoji": "^1.4.1",
     "path": "^0.12.7",
     "prerender-node": "^2.5.0",
+    "rxjs": "^5.0.0-beta.12",
     "typescript": "^2.3.2"
   },
   "devDependencies": {
