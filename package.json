@@ -4,7 +4,16 @@
   "description": "ghost creative express.js server",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./test --recursive"
+    "test": "mocha ./test --recursive",
+    "start": "npm run build && npm run server",
+    "build": "webpack",
+    "build:aot": "webpack --env.aot --env.client & webpack --env.aot --env.server",
+    "prebuild": "npm run clean",
+    "prebuild:aot": "npm run clean",
+    "prebuild:prod": "npm run clean",
+    "clean": "rimraf dist",
+    "server": "nodemon dist/ghostExpressServer.js",
+    "watch": "webpack --watch"
   },
   "keywords": [
     "ghost",
@@ -61,11 +70,14 @@
     "body-parser": "^1.15.2",
     "compression": "^1.6.2",
     "express": "^4.14.0",
+    "html-webpack-plugin": "^2.28.0",
     "js.clone": "0.0.3",
     "methods": "~1.1.2",
     "morgan": "^1.7.0",
     "preboot": "~4.5.2",
+    "rimraf": "^2.6.1",
     "rxjs": "5.0.0-beta.12",
+    "script-ext-html-webpack-plugin": "^1.7.3",
     "webfontloader": "^1.6.26",
     "webpack": "^2.5.1",
     "webpack-merge": "^4.1.0",
